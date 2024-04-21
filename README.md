@@ -47,5 +47,14 @@ WARNINGS:
 ?: (staticfiles.W004) The directory '/home/artur/Desktop/PROJECTS/materials-about-internet-apps-and-www-websites/blog-185ic/static' in the STATICFILES_DIRS setting does not exist.
 ?: (staticfiles.W004) The directory '/home/zacniewski/zacniewski.pythonanywhere.com/static' in the STATICFILES_DIRS setting does not exist.
 
+```
 
+After fixing some errors:  
+```bash
+~ $ pa_autoconfigure_django.py --python=3.10 https://github.com/zacniewski/blog-python-anywhere.git
+< Running API sanity checks >
+  ...
+pythonanywhere.exceptions.SanityException: You already have a webapp for zacniewski.pythonanywhere.com.
+Use the --nuke option if you want to replace it.
+~ $ pa_autoconfigure_django.py --python=3.10 https://github.com/zacniewski/blog-python-anywhere.git --nuke
 ```
