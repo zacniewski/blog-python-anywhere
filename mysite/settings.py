@@ -26,7 +26,7 @@ SECRET_KEY = 'sbylp4y*90pdz%qd)vv9%*gc*4gw0mr4@qpefy=+3q9tnz0*)x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mysite-bayx.onrender.com']
 
 
 # Application definition
