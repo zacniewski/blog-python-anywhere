@@ -134,7 +134,7 @@ if not DEBUG:    # Tell Django to copy static assets into a path called `staticf
 
 
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "staticfiles"),
